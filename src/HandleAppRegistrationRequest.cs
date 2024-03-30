@@ -18,7 +18,7 @@ namespace My_AppRegistration
 
         [Function(nameof(HandleAppRegistrationRequest))]
         public async Task Run(
-            [ServiceBusTrigger("%appRegistrationTopicName%", "%appRegistrationSubscriptionName%", Connection = "ServiceBusConnection")]
+            [ServiceBusTrigger("%AppRegistrationTopicName%", "%AppRegistrationSubscriptionName%", Connection = "ServiceBusConnection")]
             ServiceBusReceivedMessage message,
             ServiceBusMessageActions messageActions)
         {

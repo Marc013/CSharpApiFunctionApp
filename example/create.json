@@ -1,0 +1,16 @@
+{
+  "Workload": {
+    "Description": "App registration creation testing",
+    "Name": "tb-dev test app registration 001",
+    "Environment": "DEV",
+    "Permission": {
+      "Delegated": [
+        "User.Read"
+      ]
+    },
+    "Requester": "Jane.Doe@email.com",
+    "TicketNumber": "REQ1234567890",
+    "ItsmEndpoint": "https://requests.myitsm.com",
+    "TechnicalOwner": "John.Doe@email.com"
+  }
+}
