@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppRegistration.Functions", "src\AppRegistration.Functions.csproj", "{8FA0EAB8-9594-45D3-9C0A-B193A3E7F58B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{58DA9781-0086-45CD-96C5-C458B89499B0} = {58DA9781-0086-45CD-96C5-C458B89499B0}
+		{E956B44D-0D65-4526-95FB-0161A43B51C6} = {E956B44D-0D65-4526-95FB-0161A43B51C6}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{42BF67BD-00D8-49CB-BA85-DBBD19F9D547}"
 EndProject
